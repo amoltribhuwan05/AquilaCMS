@@ -19,7 +19,7 @@ const {fs} = require('aql-utils');
         };
         await fs.writeFile('./config/env.json', JSON.stringify(envJsonContent));
 
-        console.log('Tests setup script ended.');
+        console.log('Tests setup script ended');
     } catch (err) {
         console.error(err);
     }
