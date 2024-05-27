@@ -10,7 +10,7 @@ This script can be useful when you have to re-install all dependencies manually 
 
 This script take the dependencies in package.json and copy them into the package-aquila.json or package-theme.json file.
 It is used in a Github Actions.
-
+.
 ## build.js
 
 The NodeJS script `build.js` is used when we use the `build` command of the `package.json`
